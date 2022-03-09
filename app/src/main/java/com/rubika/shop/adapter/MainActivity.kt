@@ -12,22 +12,23 @@ class MainActivity : AppCompatActivity() {
     private lateinit var customAdapter: MyCustomAdapter
     private
     val response = listOf<ImageModel>(
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika),
-        ImageModel(R.drawable.rubika)
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background),
+        ImageModel(R.drawable.ic_launcher_background)
 
     )
     private val finalList = mutableListOf<RowItems>()
